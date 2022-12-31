@@ -1,6 +1,6 @@
 <h1 align="center">Clon de Pinterest</h1>
 <h3 align="center">Como pryocto, cree el clon de Pinterest, con imagenes descargadas de Pixabay</h3>
-<p>Puedes acceder al proyecto, dando click acá: <a href="https://jsebasmorales.github.io/proyecto_clon_google/"><img src="./assets/pinterest.png" width="30" ></a></p>
+<p>Puedes acceder al proyecto, dando click acá: <a href="https://jsebasmorales.github.io/proyecto_clon_pinterest/"><img src="./assets/pinterest.png" width="30" ></a></p>
 <img src="./assets/screen_1.jpg" alt="Imagen clon de pinterest" width="auto" />
 <img src="./assets/screen_2.jpg" alt="Imagen clon de pinterest" width="auto" />
 <img src="./assets/screen_3.jpg" alt="Imagen clon de pinterest" width="auto" />

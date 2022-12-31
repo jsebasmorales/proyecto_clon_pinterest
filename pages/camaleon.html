@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="icon" type="image/x-icon" href="../assets/pinterest.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Pinterest - Camaleón</title>
+    </head>
+    <body>
+        <nav id="navbar-pinterest">
+            <div class="nav_left">
+                <a href="https://www.pinterest.com">
+                    <img src="../assets/pinterest.png" id="pinterest-icon" alt="" />
+                </a>
+                <a href="../index.html" class="home">Home</a>
+                <input type="checkbox" name="check" id="check" />
+                <label for="check" class="checkbtn">
+                    <span>Create</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </label>
+                <ul class="nav_create">
+                    <li>Create Idea Pin</li>
+                    <li>Create Pin</li>
+                </ul>
+            </div>
+            <div id="finder">
+                <input type="text" class="finder" placeholder="Search" />
+            </div>
+            <div class="icons">
+                <img src="../assets/bell.png" id="notifications" alt="" />
+                <img src="../assets/chat.png" id="message" alt="" />
+                <img src="../assets/profile.jpg" id="profile-img" alt="" />
+                <img src="../assets/chevron.png" id="chevron" alt="" />
+            </div>
+        </nav>
+        <main class="one_pic">
+            <section class="main">
+                <div class="imagen">
+                    <img src="../assets/camaleon.jpg" alt="" />
+                </div>
+                <div class="contenido">
+                    <div class="contenido_iconos">
+                        <div class="icon_only">
+                            <div class="hover_icon">
+                                <i class="fa-solid fa-ellipsis icon2"></i>
+                            </div>
+                            <div class="hover_icon">
+                                <i class="fa-solid fa-arrow-up-from-bracket icon2"></i>
+                            </div>
+                            <div class="hover_icon">
+                                <i class="fa-solid fa-link icon2"></i>
+                            </div>
+                        </div>
+                        <button class="menu_guardar">Guardar</button>
+                    </div>
+                    <div class="contenido_texto">
+                        <p>
+                            Uploaded by <a href="https://www.linkedin.com/in/sebastian-morales-salazar/"><span>Sebastian Morales</span></a>
+                        </p>
+                        <h1>Camaleón</h1>
+                    </div>
+                    <div class="contenido_perfil">
+                        <div class="perfil_texto">
+                            <img src="../assets/profile.jpg" alt="" />
+                            <div class="contenido_perfil_datos">
+                                <a href="https://github.com/jsebasmorales"> Sebastian Morales</a>
+                                <p>782 followers</p>
+                            </div>
+                        </div>
+                        <button class="boton_gris">Follow</button>
+                    </div>
+                    <div class="comments">
+                        <p>Comments</p>
+                        <span><img src="../assets/chevron.png" alt="" /></span>
+                    </div>
+                    <div class="contenido_coments">
+                        <div class="comments_gral">
+                            <div>
+                                <img src="../assets/profile.jpg" alt="" />
+                            </div>
+                            <div class="comments_area">
+                                <textarea name="" id="" cols="45" rows="10" placeholder="Add a comment"></textarea>
+                                <span class="comments_emoji">😀</span>
+                            </div>
+                        </div>
+                        <div class="comments_btn">
+                            <a href="" class="boton_gris">Cancel</a>
+                            <a href="" class="boton_gris rojo">Done</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="titulo">
+                <h2>Imágenes relacionadas</h2>
+            </section>
+            <section id="content">
+                <div>
+                    <section class="card-image">
+                        <img src="../assets/aguila.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/eagle.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/aguila_calva.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/aguila_calva.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/aguila_ojos.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/aguila_ojos.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/ave.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/ave.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/bebemono.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/bebe_mono.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/cabra salvaje.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/cabra.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/calle.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/calle.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/camaleon.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/camaleon.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/camaleon_verde.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/camaleon_verde.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/colibri.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/colibri.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/elefante.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/elefante.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/elefante_nino.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/elefante_nino.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/goura.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/goura.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/jirafa.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/jirafa.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/koala.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/koala.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/lagartija.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/lagartija.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/lagartija_arbol.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/lagartija_arbol.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/leon.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/dientes_leon.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/leon_dia.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/leon_dia.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/loro.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/loro.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/mono_noche.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/mono_noche.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/mono_papa.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/mono_papa.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/nieve.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/ciervo_nieve.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/nieve_2.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/ciervo_nieve_2.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/oso_grizzly.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/oso_grizzly.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/pajaro_azul.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/pajaro_azul.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/pinguino.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/pinguino.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/reno.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/reno.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/suricata.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/suricata.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-image">
+                        <img src="../assets/tigre.jpg" class="img" />
+                        <div class="hover_zone">
+                            <div class="hover_top">
+                                <button class="menu-superior_guardar">Guardar</button>
+                            </div>
+                            <div class="hover_btm">
+                                <button class="hover_btn"><a href="./pages/tigre.html">Ver imagen</a></button>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-arrow-up-from-bracket icon"></i>
+                                </div>
+                                <div class="hover_icon">
+                                    <i class="fa-solid fa-ellipsis icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
